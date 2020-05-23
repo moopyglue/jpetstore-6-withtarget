@@ -1,0 +1,202 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36morg.mybatis:jpetstore[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding JPetStore Demo 6 6.0.3-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/moopyglue/dev/jpetstore-6-withtarget/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M1:enforce[m [1m(enforce-java)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.4:prepare-agent[m [1m(prepare-agent)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/moopyglue/.m2/repository/org/jacoco/org.jacoco.agent/0.8.4/org.jacoco.agent-0.8.4-runtime.jar=destfile=/home/moopyglue/dev/jpetstore-6-withtarget/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mformatter-maven-plugin:2.8.1:format[m [1m(default)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to format source files.
+[[1;34mINFO[m] Number of files to be formatted: 41
+[[1;34mINFO[m] Successfully formatted:          0 file(s)
+[[1;34mINFO[m] Fail to format:                  0 file(s)
+[[1;34mINFO[m] Skipped:                         41 file(s)
+[[1;34mINFO[m] Read only skipped:               0 file(s)
+[[1;34mINFO[m] Approximate time taken:          1s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 11 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Compiling 24 source files to /home/moopyglue/dev/jpetstore-6-withtarget/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:3.0:format[m [1m(default)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Updating license headers...
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/format.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/domain/Account.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/domain/Cart.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/domain/Item.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/domain/CartItem.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/domain/Category.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/domain/LineItem.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/domain/Order.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/domain/Product.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/domain/Sequence.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/mapper/CategoryMapper.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/mapper/AccountMapper.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/mapper/LineItemMapper.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/mapper/OrderMapper.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/mapper/ItemMapper.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/mapper/ProductMapper.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/mapper/SequenceMapper.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/service/AccountService.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/service/CatalogService.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/web/actions/AbstractActionBean.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/service/OrderService.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/web/actions/CatalogActionBean.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/web/actions/AccountActionBean.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/web/actions/CartActionBean.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/StripesResources.properties
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/database/jpetstore-hsqldb-dataload.sql
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/java/org/mybatis/jpetstore/web/actions/OrderActionBean.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/database/jpetstore-hsqldb-schema.sql
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/log4j.properties
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/org/mybatis/jpetstore/mapper/AccountMapper.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/org/mybatis/jpetstore/mapper/ItemMapper.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/org/mybatis/jpetstore/mapper/CategoryMapper.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/org/mybatis/jpetstore/mapper/LineItemMapper.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/org/mybatis/jpetstore/mapper/OrderMapper.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/org/mybatis/jpetstore/mapper/ProductMapper.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/resources/org/mybatis/jpetstore/mapper/SequenceMapper.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/applicationContext.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/account/EditAccountForm.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/account/IncludeAccountFields.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/account/NewAccountForm.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/account/SignonForm.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/cart/Checkout.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/cart/IncludeMyList.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/catalog/Category.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/catalog/Item.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/catalog/Main.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/catalog/SearchProducts.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/catalog/Product.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/common/Error.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/common/IncludeBottom.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/common/IncludeTop.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/order/ConfirmOrder.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/order/ListOrders.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/order/NewOrderForm.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/order/ShippingForm.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/jsp/order/ViewOrder.jsp
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/WEB-INF/web.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/css/jpetstore.css
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/help.html
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp/index.html
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/site/es/xdoc/index.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/site/ja/xdoc/index.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/site/ko/xdoc/index.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/site/resources/css/site.css
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/site/site.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/site/site_ja.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/site/site_es.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/site/site_ko.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/site/xdoc/index.xml
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/domain/CartTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/domain/OrderTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/mapper/AccountMapperTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/mapper/CategoryMapperTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/mapper/ItemMapperTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/mapper/MapperTestContext.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/mapper/LineItemMapperTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/mapper/OrderMapperTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/mapper/SequenceMapperTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/mapper/ProductMapperTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/service/AccountServiceTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/service/CatalogServiceTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/service/OrderServiceTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/web/actions/AccountActionBeanTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/web/actions/CatalogActionBeanTest.java
+[[1;33mWARNING[m] Unknown file extension: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/resources/.gitkeep
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/web/actions/OrderActionBeanTest.java
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/travis/after_success.sh
+[[1;34mINFO[m] Updating license header in: /home/moopyglue/dev/jpetstore-6-withtarget/travis/settings.xml
+[[1;33mWARNING[m] Unable to find a comment style definition for some files. You may want to add a custom mapping for the relevant file extensions.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.17:check[m [1m(check-java-compat)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.1.0:manifest[m [1m(bundle-manifest)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Unable to determine whether the meta annotation net.sourceforge.stripes.validation.Validate applied to type org.mybatis.jpetstore.domain.Account provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+[[1;34mINFO[m] Unable to determine whether the meta annotation org.springframework.transaction.annotation.Transactional applied to type org.mybatis.jpetstore.service.AccountService provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+[[1;34mINFO[m] Unable to determine whether the meta annotation org.springframework.stereotype.Service applied to type org.mybatis.jpetstore.service.AccountService provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+[[1;34mINFO[m] Unable to determine whether the meta annotation net.sourceforge.stripes.integration.spring.SpringBean applied to type org.mybatis.jpetstore.web.actions.AccountActionBean provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+[[1;34mINFO[m] Unable to determine whether the meta annotation net.sourceforge.stripes.action.DefaultHandler applied to type org.mybatis.jpetstore.web.actions.AccountActionBean provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+[[1;34mINFO[m] Unable to determine whether the meta annotation net.sourceforge.stripes.action.SessionScope applied to type org.mybatis.jpetstore.web.actions.AccountActionBean provides bundle annotations as it is not on the project build path. If this annotation does provide bundle annotations then it must be present on the build path in order to be processed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Compiling 17 source files to /home/moopyglue/dev/jpetstore-6-withtarget/target/test-classes
+[[1;34mINFO[m] /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/domain/OrderTest.java: /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/domain/OrderTest.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /home/moopyglue/dev/jpetstore-6-withtarget/src/test/java/org/mybatis/jpetstore/domain/OrderTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M3:test[m [1m(default-test)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.mybatis.jpetstore.service.[1mOrderServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.68 s - in org.mybatis.jpetstore.service.[1mOrderServiceTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.service.[1mCatalogServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 s - in org.mybatis.jpetstore.service.[1mCatalogServiceTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.service.[1mAccountServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in org.mybatis.jpetstore.service.[1mAccountServiceTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.mapper.[1mItemMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.634 s - in org.mybatis.jpetstore.mapper.[1mItemMapperTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.mapper.[1mProductMapperTest[m
+[Amazon Parrot, Koi, Goldfish, Bulldog, Dalmation, Poodle, Golden Retriever, Labrador Retriever]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in org.mybatis.jpetstore.mapper.[1mProductMapperTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.mapper.[1mAccountMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 s - in org.mybatis.jpetstore.mapper.[1mAccountMapperTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.mapper.[1mLineItemMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in org.mybatis.jpetstore.mapper.[1mLineItemMapperTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.mapper.[1mCategoryMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.mybatis.jpetstore.mapper.[1mCategoryMapperTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.mapper.[1mOrderMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 s - in org.mybatis.jpetstore.mapper.[1mOrderMapperTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.mapper.[1mSequenceMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.mybatis.jpetstore.mapper.[1mSequenceMapperTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.web.actions.[1mOrderActionBeanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.mybatis.jpetstore.web.actions.[1mOrderActionBeanTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.web.actions.[1mAccountActionBeanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.mybatis.jpetstore.web.actions.[1mAccountActionBeanTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.web.actions.[1mCatalogActionBeanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.mybatis.jpetstore.web.actions.[1mCatalogActionBeanTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.domain.[1mCartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.mybatis.jpetstore.domain.[1mCartTest[m
+[[1;34mINFO[m] Running org.mybatis.jpetstore.domain.[1mOrderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.mybatis.jpetstore.domain.[1mOrderTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 74, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:3.2.3:war[m [1m(default-war)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [jpetstore] in [/home/moopyglue/dev/jpetstore-6-withtarget/target/jpetstore]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/home/moopyglue/dev/jpetstore-6-withtarget/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [109 msecs]
+[[1;34mINFO[m] Building war: /home/moopyglue/dev/jpetstore-6-withtarget/target/jpetstore.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.7.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mjpetstore[0;1m ---[m
+[[1;34mINFO[m] Skipping because packaging 'war' is not pom.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  25.471 s
+[[1;34mINFO[m] Finished at: 2020-05-23T18:34:11+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
